@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link href="estilo.css" rel="stylesheet">
+    <link href="bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <h5 class="text-white h4">TELETRANSPORTUS <img src="imagem/logo3.jpg" width="60" height="30" class="d-inline-block align-top" loading="lazy"></h5>
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Página Inicial<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="quemsomos.html">Sobre Nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand">
+            <img src="imagem/logo3.jpg" width="60" height="30" class="d-inline-block align-top" alt="" loading="lazy">TELETRANSPORTUS</a>
+        </nav>
+        <div class="row">
+          <div class="col-md-4 mb-3 mt-3">
+            <label for="validationCustom01">Nome</label>
+            <input type="text" class="form-control" id="validationCustom01">
+
+            <label for="validationCustom02">Sobrenome</label>
+            <input type="text" class="form-control">
+            
+            <label for="validationCustom03">Email</label>
+            <input type="text" class="form-control">
+
+            <label for="validationCustom04">Assunto</label>
+            <select class="custom-select" id="validationCustom04" required>
+              <option selected disabled value="">Escolha</option>
+              <option>Reclamações</option>
+              <option>Sugestões</option>
+              <option>Dúvidas</option>
+              <option>Vagas</option>
+              <option>Imprensa</option>
+              <option>Fornecedores</option>
+            </select>
+            <form class="was-validated">
+              <div class="mb-3">
+                  <label for="Textarea">Descrição</label>
+                    <textarea class="form-control"  placeholder="Deixe sua mensagem."></textarea>
+              </div>
+              <button type="button" type="submit" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">Enviar</button>
+              <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Sua mensagem foi enviada.</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">Fique de olho no seu e-mail, retornaremos com a resposta por lá!</div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-6 mt-3">
+            <img id="tamanho" src="imagem/feliz.jpg" class="img-fluid" alt="Responsive image">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 mt-2">
+                <h2>Telefones para contato:</h2>
+                <ul>
+                <li>Brasil</li>
+                <p>PABX: (+55 12) 3927-1000</p>
+                <li>China</li>
+                <p>Tel.: (+ 86 10) 6598-9988</p>
+                <p>Fax.: (+ 86 10) 6598-9986</p>
+                <li>Estados Unidos</li>
+                <p>Tel.: (954) 359-3700</p>
+                <p>Tel.: (954) 359-5387</p>
+            </div>
+            <div class="col-md-3 mt-4">
+                <li>Holanda</li>
+                <p>Tel.: (00 + 31) 20 21 58100</p>
+                <li>Portugal</li>
+                <p>Tel.: (00 + 351) 266 242 500</p>
+                <li>Singapura</li>
+                <p>Tel.: (+65) 6734-4321</p>
+                <p>Fax.: (+65) 6734-8255</p>
+                </ul>
+                <button type="submit" class="btn btn-primary">Fale Conosco</button>
+            </div>
+            <div class="col-md-4 mt-5">
+              <div class="jumbotron">
+                <p class="lead">A Teletransportus trabalha intensamente para manter nossos clientes satisfeitos!</p>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+    </div>
+</body>
+</html>
